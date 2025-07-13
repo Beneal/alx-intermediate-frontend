@@ -1,1 +1,12 @@
 
+# Step 1: Downloaded and installed NVM for Windows from:
+# https://github.com/coreybutler/nvm-windows/releases
+
+# Step 2: Opened PowerShell and installed Node.js version 20.16.0
+nvm install 20.16.0
+
+# Step 3: Set Node.js 20.16.0 as the active version
+nvm use 20.16.0
+
+# Step 4: Installed Sass globally using npm
+npm install -g sass@3.7.4
