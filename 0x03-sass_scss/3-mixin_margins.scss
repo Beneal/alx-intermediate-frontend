@@ -1,0 +1,26 @@
+// 8-mixin_margins.scss
+@mixin horizontal-margins($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+body {
+  @include horizontal-margins(10px, 10px);
+}
+
+div {
+  @include horizontal-margins(15px, 15px);
+}
+
+
+#css
+
+body {
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+div {
+  margin-left: 15px;
+  margin-right: 15px; 
+}
